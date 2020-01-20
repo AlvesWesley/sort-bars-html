@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Ordenar barras</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <section id="config">
+      <button onclick="printBars()">Listar</button>
+      <select name="speed" id="speed">
+        <option disabled>Velocidade</option>
+        <option value="slow">Slow</option>
+        <option value="medium">Medium</option>
+        <option value="fast">Fast</option>
+        <option value="ultra">Ultra</option>
+      </select>
+      <button id="resolve" onclick="sortBars()" disabled>Resolver</button>
+    </section>
+    <main id="area"></main>
+    <footer><span>By Wesley Alves</span></footer>
+  </body>
+</html>
